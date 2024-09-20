@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="counter">
+        <h1>Value of Number</h1>
+        <h2 id="demo" class="m-top-5">0</h2>
+        <button onclick="incData()" class="inc">IncrementData</button>
+        <button onclick="decData()" class="dec">DecrementData</button>
+    </header>
+   <hr>
+   <br>
+    <div class="contaner">
+        <div class="row">
+            <div class="col-md-10  mt-4 ml-auto mr-auto">
+                <h3 class="text-center">Convert Dollar To L.E </h3>
+                <form onsubmit="return convert()">
+                    <input type="text" class="form-control md-3 mb-2" id="myinput">
+                    <input type="submit" value="Convert" class="btn btn-success btn-block ">
+                </form>
+                <h4 id="result"></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
